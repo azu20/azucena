@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/azucena/static/css/main.5f361e03.chunk.css",
+    "main.js": "/azucena/static/js/main.6f324d69.chunk.js",
+    "main.js.map": "/azucena/static/js/main.6f324d69.chunk.js.map",
+    "runtime-main.js": "/azucena/static/js/runtime-main.d1616748.js",
+    "runtime-main.js.map": "/azucena/static/js/runtime-main.d1616748.js.map",
+    "static/js/2.edb5bf43.chunk.js": "/azucena/static/js/2.edb5bf43.chunk.js",
+    "static/js/2.edb5bf43.chunk.js.map": "/azucena/static/js/2.edb5bf43.chunk.js.map",
+    "index.html": "/azucena/index.html",
+    "precache-manifest.12110f59221c1a3bcdff40fc52a796ac.js": "/azucena/precache-manifest.12110f59221c1a3bcdff40fc52a796ac.js",
+    "service-worker.js": "/azucena/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/azucena/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.edb5bf43.chunk.js.LICENSE.txt": "/azucena/static/js/2.edb5bf43.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/azucena/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1616748.js",
+    "static/js/2.edb5bf43.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6f324d69.chunk.js"
+  ]
+}
