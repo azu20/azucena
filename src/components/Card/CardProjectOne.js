@@ -8,9 +8,9 @@ import Card from 'react-bootstrap/Card';
 function CardProjectOne() {
   return (
     <Card className="bg-dark" border="primary" style={{ width: '28rem' }}>
-      <div class="hovereffect">
+      <div className="hovereffect">
         <Card.Img src={projectOneImage} alt="Card image" style={{ width: 450, height: 250 }} />
-        <div class="overlay">
+        <div className="overlay">
           <Card.ImgOverlay>
             <Card.Title>DAS FLIX</Card.Title>
             <Card.Subtitle>Group Project</Card.Subtitle>

@@ -10,7 +10,8 @@ import "./portfolio.css";
 
 const Portfolio = () => {
     return (
-      <div>
+      
+      <div className="portfolioPage">
       <div className="Portfolio">
         <h1>Portfolio</h1>
       <br></br>
@@ -41,9 +42,15 @@ const Portfolio = () => {
           <CardProjectTwo />
         </Col>
       </Row>
+      <br></br>
+      <br></br>
+    <br></br>
     </Container>
+    <br></br>
+    <br></br>
     </div>
     </div>
+    
   );
   };
   

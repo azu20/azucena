@@ -1,22 +1,25 @@
-import React from 'react'
+import React from 'react';
 // import ReactDOM from 'react-dom'
-import { useSpring, animated } from 'react-spring'
-import './contact.css'
+import { useSpring, animated } from 'react-spring';
+import './contact.css';
+import ContactSection from './ContactCard';
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
-function Card() {
+function ContactPage() {
   const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
   return (
     <animated.div
-      className="card"
+      className="card-contact"
       onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
-      style={{ transform: props.xys.interpolate(trans) }}
-    />
+      style={{ transform: props.xys.interpolate(trans) }}>
+      <ContactSection />
+      </animated.div>
+    
   )
 }
  
 // ReactDOM.render(<ContactCard />, document.getElementById('root')); 
-export default Card; 
+export default ContactPage; 

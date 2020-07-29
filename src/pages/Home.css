@@ -1,65 +1,57 @@
-body {
-    background: url('https://www.brandhill.com/wp-content/uploads/2015/01/Brandhill-Web-Background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
+#aboutme {
     margin: 15px;
     font-family: 'Della Respira', serif;
     font-size: 75px;
     text-shadow: 2px 2px 4px grey;
-    color: rgb(23, 65, 65);
+    color:#444;
 }
 
-#aboutme {
-    color: rgb(23, 65, 65);
-    margin: 15px;
+.skills {
+    margin: 20px;
     font-family: 'Della Respira', serif;
-    font-size: 70px;
+    font-size: 50px;
     text-shadow: 2px 2px 4px grey;
+    color: #444;
+    font-weight: 800;
 }
 
-h2 {
-    margin: 15px;
-    font-family: 'Della Respira', serif;
-    font-size: 45px;
-    text-shadow: 2px 2px 4px grey;
-    color: rgb(23, 65, 65);
+#blockquote {
+    color: #444;
+    font-weight: bolder;
+    font-size: 32px;
 }
 
-h3 {
-    color: rgb(23, 65, 65);
+#blockquote-footer {
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+
+#blocktext{
+    color: #444;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.homecontact {
+    color: #444;
     font-weight: bolder;
 }
-
-h4{
-    color: rgb(23, 65, 65);
-    font-weight: bolder;
-}
-.Mepix {
-    box-shadow: 10px 10px 5px grey;
-}
-
-img {
-    border-radius: 50%;
-}
-
-h6 {
-    background-color: transparent;
-    /* font-size: medium; */
-    color: rgb(23, 65, 65);
-    font-weight: 500;
-
-}
-
 
 #links {
+    color: #444;
     font-weight: bolder;
-    background-image: none;
+}
+
+.mepix {
+    border-style: inset;
+    border-width: 10px;
+}
+
+.smallpix {
+    border-radius: 50%;
+    border-style: groove;
 }
 
 .logos {
@@ -67,6 +59,12 @@ h6 {
     background-color: transparent;
     /* height: 80px; */
     width: auto;
-    border-radius: 10px;
+    image-rendering: auto;
+    /* border-radius: 10px; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
     padding: 5px;
+    margin: 3px;
 }
+

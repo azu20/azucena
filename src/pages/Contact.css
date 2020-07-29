@@ -13,7 +13,11 @@
     text-shadow: 2px 2px 4px grey;
 }
 
-.jumbotron {
-    background-color: transparent;
+.contact-body {
+    background-image: url('https://unsplash.com/photos/ZmjJU-xN49A');
 }
+
+/* .jumbotron {
+    background-color: transparent;
+} */
 

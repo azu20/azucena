@@ -14,9 +14,9 @@
     font-weight: 500; */
 }
 
-p {
+.card-text {
     font-size: medium;
-    color: skyblue;
+    color: white;
     font-weight: 200;
 }
 
@@ -29,20 +29,6 @@ h1 {
     color: rgb(23, 65, 65);
     
 
-}
-
-body {
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background: hsla(314, 11%, 43%, 1);
-    background: linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
-    background: -moz-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
-    background: -webkit-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7A6174", endColorstr="#b392ac", GradientType=1 
-    );
 }
 
 .img {

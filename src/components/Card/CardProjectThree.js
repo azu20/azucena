@@ -7,13 +7,13 @@ function CardProjectThree() {
   return (
 
     <Card className="bg-dark" border="primary" style={{ width: '28rem' }}>
-      <div class="hovereffect">
+      <div className="hovereffect">
         <Card.Img src={projectThreeImage} alt="Card image" style={{ width: 450, height: 250 }} />
-        <div class="overlay">
+        <div className="overlay">
           <Card.ImgOverlay>
             <Card.Title>Work Day Scheduler</Card.Title>
             <Card.Subtitle>Individual Project</Card.Subtitle>
-            <Card.Text class="font-size: 10px">
+            <Card.Text className="font-size: 10px">
               I have created a simple calendar application that allows the user to save events for each hour of the day.
             </Card.Text>
             <Card.Text>Technologies/Concepts: 3rd party APIs, Moment.js, Jquery</Card.Text>

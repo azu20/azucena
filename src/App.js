@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import { Container } from './components/Grid';
 import NoMatch from "./pages/NoMatch";
+import Footer from "./components/Footer/Footer";
 
 function App() {  
     return (
@@ -22,7 +23,8 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>  
-        </Container>        
+        </Container> 
+        <Footer />       
       </div>
     </Router>
     );

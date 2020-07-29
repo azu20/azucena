@@ -6,7 +6,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="text-center">
-    <Navbar className="navbar" fixed="bottom" bg="dark" variant="dark">
+    <Navbar className="footer" fixed="bottom" bg="dark" variant="dark">
       <Navbar.Brand className="navbar-brand" href="#home">
         {' '}
       &copy;Suzy Gonzalez
