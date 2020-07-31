@@ -1,21 +1,21 @@
-#contacttext {
+/* #contacttext {
     color: rgb(23, 65, 65);
     font-weight: bolder;
     font-size: 16px;
     text-align: center;
-}
+} */
 
-#contacttitle {
+/* #contacttitle {
     color: rgb(23, 65, 65);
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
     text-shadow: 2px 2px 4px grey;
-}
+} */
 
-.contact-body {
+/* .contact-body {
     background-image: url('https://unsplash.com/photos/ZmjJU-xN49A');
-}
+} */
 
 /* .jumbotron {
     background-color: transparent;

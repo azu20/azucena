@@ -22,21 +22,21 @@ function Skills() {
         <div>
             <article>
                     <h2 className="skills">Skills</h2>
-                    <Image className="skillimg" src={Html} alt="html" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Css} alt="css" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Js} alt="js" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Jquery} alt="jquery" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Bootstrap} alt="bootstrap" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Express} alt="express" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Ajax} alt="ajax" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Node} alt="node" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Npm} alt="npm" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={MySQL} alt="mysql" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Sequelize} alt="sequelize" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={MongoDB} alt="mongodb" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={Mongoose} alt="mongoose" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={ReactJS} alt="react" className="logos" width={80} height={80} roundedCircle />
-                    <Image className="skillimg" src={MERN} alt="mern" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Html} alt="html" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Css} alt="css" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Js} alt="js" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Jquery} alt="jquery" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Bootstrap} alt="bootstrap" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Express} alt="express" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Ajax} alt="ajax" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Node} alt="node" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Npm} alt="npm" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={MySQL} alt="mysql" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Sequelize} alt="sequelize" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={MongoDB} alt="mongodb" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={Mongoose} alt="mongoose" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={ReactJS} alt="react" className="logos" width={80} height={80} roundedCircle />
+                    <Image src={MERN} alt="mern" className="logos" width={80} height={80} roundedCircle />
 
                     </article>
                     <br></br>

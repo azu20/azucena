@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import "./style.css";
+// import NewPortfolio from "../pages/new-portfolio/new-portfolio";
 
 function Navbar() {
     return (
@@ -46,6 +47,18 @@ function Navbar() {
               }
             >
               Contact
+            </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link
+              to="/NewPortfolio"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/NewPortfolio"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              NewPortfolio
             </Link>
                     </li>
                 </ul>

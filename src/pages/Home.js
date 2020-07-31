@@ -6,6 +6,8 @@ import BioCard from "../components/Card/Bio";
 import Skills from "../components/Card/Skills";
 import BioContact from "../components/Card/BioContact";
 import "./Home.css";
+// import Footer from "../components/Footer/Footer";
+
 
 const Home = () => {
   return (
@@ -22,7 +24,7 @@ const Home = () => {
         <BioContact />
         <br></br>
         <br></br>
-
+    {/* <Footer /> */}
     </Container>
   );
 }

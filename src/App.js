@@ -8,6 +8,7 @@ import Portfolio from "./pages/Portfolio";
 import { Container } from './components/Grid';
 import NoMatch from "./pages/NoMatch";
 import Footer from "./components/Footer/Footer";
+import NewPortfolio from "./pages/NewPortfolio";
 
 function App() {  
     return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/NewPortfolio" component={NewPortfolio} />
           <Route component={NoMatch} />
         </Switch>  
         </Container> 
