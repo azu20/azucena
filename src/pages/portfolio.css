@@ -14,10 +14,27 @@
     font-weight: 500; */
 }
 
+.card-title {
+    font-size: medium;
+    color: white;
+    font-weight: bolder;
+}
+
+.card-link {
+    color: #c0422e; 
+    font-weight: 900;
+}
+
+.card-subtitle {
+    font-size: medium;
+    color: white;
+    font-weight: bolder;
+}
+
 .card-text {
     font-size: medium;
     color: white;
-    font-weight: 200;
+    font-weight: bolder;
 }
 
 h1 {
@@ -26,19 +43,17 @@ h1 {
     font-size: 75px;
     text-shadow: 2px 2px 4px grey;
     text-align: center;
-    color: rgb(23, 65, 65);
-    
-
+    color: #bb3b0e;
 }
 
 .img {
-    border: 1px solid rgb(1, 78, 78);
+    border: 1px solid #bb3b0e;
     border-radius: 10px;
     padding: 5px;
 }
 
 img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 2px 1px #E8634E;
 }
 
 .hovereffect {
@@ -74,7 +89,7 @@ img:hover {
 
 .hovereffect h2 {
     text-transform: uppercase;
-    color: #fff;
+    color: #bb3b0e;
     text-align: center;
     position: relative;
     font-size: 17px;
@@ -91,8 +106,8 @@ img:hover {
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #bb3b0e;
+    border: 1px solid #bb3b0e;
     background-color: transparent;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -103,7 +118,7 @@ img:hover {
 }
 
 .hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #bb3b0e;
 }
 
 .hovereffect:hover img {

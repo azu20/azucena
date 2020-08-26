@@ -6,8 +6,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="text-center">
-    <Navbar className="footer" fixed="bottom" bg="dark" variant="dark">
-      <Navbar.Brand className="navbar-brand" href="#home">
+    <Navbar className="footer" fixed="bottom" variant="dark">
+      <Navbar.Brand className="navbar-brand2" href="#home">
         {' '}
       &copy;Suzy Gonzalez
     </Navbar.Brand>

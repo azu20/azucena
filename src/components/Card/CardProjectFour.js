@@ -18,7 +18,7 @@ function CardProjectFour() {
             This command-line interface (Content Management System) will architect and build a solution for managing employees using node, inquirer, and MySQL.
     </Card.Text>
             <Card.Text>Technology/Concepts: Node, Inquirer,JQuery, MySQL, SQL</Card.Text>
-            <Card.Link href="https://github.com/azu20/Employee-Management-System-MySQL">This app is deployed on your command line</Card.Link>
+            <Card.Link href="https://github.com/azu20/Employee-Management-System-MySQL">Command Line Deployment</Card.Link>
             <Card.Link href="https://github.com/azu20/Employee-Management-System-MySQL">Github</Card.Link>
           </Card.ImgOverlay>
         </div>

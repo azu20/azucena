@@ -13,7 +13,7 @@ function CardProjectThree() {
           <Card.ImgOverlay>
             <Card.Title>Work Day Scheduler</Card.Title>
             <Card.Subtitle>Individual Project</Card.Subtitle>
-            <Card.Text className="font-size: 10px">
+            <Card.Text>
               I have created a simple calendar application that allows the user to save events for each hour of the day.
             </Card.Text>
             <Card.Text>Technologies/Concepts: 3rd party APIs, Moment.js, Jquery</Card.Text>

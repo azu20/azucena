@@ -4,15 +4,19 @@ nav.navbar.navbar-default {
   }
 
  .footer {
-  background-color: #6c647a;
-     }
-
-  .navbar.brand {
-    color: white;
+  background-color: #c0422e;
+  text-decoration-color: #c0422e;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     font-size: larger;
-  }
+     }
+
+  /* .navbar.brand2 {
+    color: #c0422e;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+  } */
 
   
 

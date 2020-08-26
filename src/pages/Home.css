@@ -3,7 +3,7 @@
     font-family: 'Della Respira', serif;
     font-size: 75px;
     text-shadow: 2px 2px 4px grey;
-    color:#444;
+    color:#c0422e;
 }
 
 .skills {
@@ -11,12 +11,12 @@
     font-family: 'Della Respira', serif;
     font-size: 50px;
     text-shadow: 2px 2px 4px grey;
-    color: #444;
+    color: #bb3b0e;
     font-weight: 800;
 }
 
 #blockquote {
-    color: #444;
+    color: #bb3b0e;
     font-weight: bolder;
     font-size: 32px;
 }
@@ -28,19 +28,19 @@
 
 
 #blocktext{
-    color: #444;
+    color: #c0422e;
     font-weight: bolder;
     font-size: 18px;
     font-family: sans-serif;
 }
 
 .homecontact {
-    color: #444;
+    color: #bb3b0e;
     font-weight: bolder;
 }
 
 #links {
-    color: #444;
+    color: #bb3b0e;
     font-weight: bolder;
 }
 
@@ -63,7 +63,7 @@
     /* border-radius: 10px; */
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: #bb3b0e;
     padding: 5px;
     margin: 3px;
 }

@@ -2,11 +2,12 @@
 .card-contact {
   float: none;
   margin: 60px auto;
-  width: 50ch;
-  height: 55ch;
+  width: 70ch;
+  height: 75ch;
   /* width: 45ch;
   height: 45ch; */
-  background: #636167;
+  /* background: #ffe17a; */
+  background-image: url('../../../Assets/Images/background2.jpg');
   border-radius: 5px;
   /* background-image: url('./ContactCard.js'); */
   background-size: cover;
@@ -15,23 +16,45 @@
   transition: box-shadow 0.5s;
   will-change: transform;
   border: 15px solid #edecf0;
+  color: #f0ece3;
   /* background-color: #861F68; */
   /* text-decoration-color: #861F34; */
   
+}
+
+.main {
+  border: transparent;
 }
 
 .card-contact:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
 
-.contacttitle {
-  font-size: 20px;
-  font-weight: 500px;
-  text-decoration-color: whitesmoke;
+#contacttitle {
+  font-size: 26px;
+  font-weight: 200px;
+  color: #c0422e;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .contact-header {
-  font-size: 40px;
+  margin-top: 60px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 48px;
   font-weight: 800;
-  text-decoration-color: whitesmoke;
+  color: #c0422e;
+}
+
+#contacttext {
+  color: #c0422e;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  
+}
+
+.card-link {
+  color: #c0422e;
 }

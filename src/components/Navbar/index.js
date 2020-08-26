@@ -5,10 +5,10 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="/">Azucena Gonzalez</a>
+        <nav className="navbar-top navbar-expand-lg">
+            
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"><a className="navbar-brand" href="/">Azucena Gonzalez</a>ls</span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul className="navbar-nav">

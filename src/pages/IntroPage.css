@@ -1,0 +1,8 @@
+.h2-header {
+    margin: 15px;
+    font-family: 'Della Respira', serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px grey;
+    text-align: center;
+    color: #bb3b0e;
+}

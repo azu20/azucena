@@ -13,11 +13,11 @@ function ContactSection() {
     {/* <Jumbotron fluid> */}
   <Container>
     <h2 className="contact-header">Contact Me</h2>
-  <Card fluid>
+  <Card fluid className="main">
   <Card.Body className="contact-card">
     <Card.Title id="contacttitle">Let's get to know each other!</Card.Title>
     <Card.Text id="contacttext">
-      Email me:<Card.Link href="azucenaphx@gmail.com">azucenaphx@gmail.com</Card.Link>
+      Email me:<Card.Link href="azucenaphx@gmail.com"> azucenaphx@gmail.com</Card.Link>
       </Card.Text>
       <Card.Text id="contacttext">
       Visit my LinkedIn: <Card.Link href="https://www.linkedin.com/in/azucenahgonzalez/">Visit my Linkedin</Card.Link>
